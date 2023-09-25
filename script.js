@@ -6,10 +6,23 @@ const questions = [
     },
     {
         question: "How do you attach your CSS to HTML?",
-        options: ["staple it to the bottom", "glue it to the back of the HTML document", "yell at the computer", "link the CSS doc as the style sheet in the HTML header"]
+        options: ["staple it to the bottom", "glue it to the back of the HTML document", "yell at the computer", "link the CSS doc as the style sheet in the HTML header"],
+        correctAnswer: 4
     },
     {
-        question: ""
+        question: "const variables can be reassigned",
+        options: ["nope, they cannot",  "sure, why not"],
+        correctAnswer: 0
+    },   
+    {
+        question: "about what % of the internet uses JavaScript today?",
+        options: ["very very few", "about half", "a very large majority"],
+        correctAnswer: 2
+    },
+    {
+        question: "what is the size limit for JavaScript files?",
+        options: ["499 lines", "14.9 Megabytes", "35 second load-time", "there is no limit"],
+        correctAnswer: 3
     }
 ];
 
